@@ -1,0 +1,27 @@
+{
+  "agent": "Finalizer Agent",
+  "source_handoffs": [
+    "handoff/04_reviewer_feedback.json"
+  ],
+  "final_files": {
+    "readme": "README.md",
+    "report_draft": "report/Final_Report_Draft.md",
+    "capcut_guide": "capcut/capcut_editing_guide.md",
+    "subtitle_file": "outputs/subtitles.srt",
+    "asset_sources": "outputs/asset_sources.md",
+    "baseline": "baseline/single_agent_baseline.md",
+    "trace": "traces/execution_trace.md"
+  },
+  "manual_completion_required": [
+    "Confirm image source or permission status in outputs/user_image_sources_to_fill.md.",
+    "Review outputs/final_video.mp4 once before upload.",
+    "Create a public GitHub repository and upload all files.",
+    "Submit the full GitHub repository URL to Ecourse."
+  ],
+  "final_video_expected": {
+    "path": "outputs/final_video.mp4",
+    "duration_seconds": 63,
+    "format": "MP4",
+    "status": "completed"
+  }
+}

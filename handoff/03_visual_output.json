@@ -1,0 +1,68 @@
+{
+  "agent": "Visual Agent",
+  "source_handoffs": [
+    "handoff/01_planner_output.json",
+    "handoff/02_script_output.json"
+  ],
+  "editing_tool": "CapCut",
+  "timeline_file": "capcut/capcut_editing_guide.md",
+  "shot_list": [
+    {
+      "time_range": "0-5",
+      "shot": "campus exterior or laptop opening shot",
+      "fallback": "self-made title card with typing animation"
+    },
+    {
+      "time_range": "5-10",
+      "shot": "department name title over campus or classroom background",
+      "fallback": "plain title card without logo"
+    },
+    {
+      "time_range": "10-15",
+      "shot": "hands typing code, notes, or classroom study shot",
+      "fallback": "screen recording of self-written code"
+    },
+    {
+      "time_range": "15-22",
+      "shot": "fast cuts of AI/data/system/network/multimedia keywords and self-made screen visuals",
+      "fallback": "CapCut text labels over self-filmed laptop footage"
+    },
+    {
+      "time_range": "22-30",
+      "shot": "demo screen, simple app, web page, or terminal output",
+      "fallback": "static screenshots of self-made work"
+    },
+    {
+      "time_range": "30-38",
+      "shot": "group discussion, whiteboard, peer review, debugging",
+      "fallback": "hands-only discussion shot or whiteboard without faces"
+    },
+    {
+      "time_range": "38-45",
+      "shot": "project demonstration or real-life use scenario",
+      "fallback": "screen recording plus subtitle emphasis"
+    },
+    {
+      "time_range": "45-52",
+      "shot": "campus learning atmosphere, hallway, classroom, walking shot",
+      "fallback": "campus scenery with no identifiable faces"
+    },
+    {
+      "time_range": "52-57",
+      "shot": "student back view, laptop closing, or clean title background",
+      "fallback": "text-only slogan card"
+    },
+    {
+      "time_range": "57-60",
+      "shot": "closing title and source note",
+      "fallback": "plain black or white background with text"
+    }
+  ],
+  "visual_constraints": [
+    "avoid unofficial logo use unless permission is clear",
+    "avoid close-up faces without consent",
+    "keep subtitles readable",
+    "use self-made or clearly licensed assets"
+  ]
+}
+

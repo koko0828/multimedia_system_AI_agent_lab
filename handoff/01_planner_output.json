@@ -1,0 +1,79 @@
+{
+  "agent": "Planner Agent",
+  "project_title": "NUTN CSIE 60-second promotional video",
+  "student": {
+    "name": "黃可瑜",
+    "student_id": "S11259035"
+  },
+  "platform": "Hermes Agent or OpenClaw with zero-paid-token mock execution",
+  "official_reference": "https://csie.nutn.edu.tw/cht/index/",
+  "target_audience": [
+    "高中生",
+    "新生",
+    "家長",
+    "一般觀眾"
+  ],
+  "core_message": "在國立臺南大學資訊工程學系，學生從程式設計與資訊工程基礎出發，透過實作、專題與團隊合作，把想法做成可以展示的系統。",
+  "video_length_seconds": 60,
+  "asset_policy": "self-made or openly licensed materials only",
+  "scenes": [
+    {
+      "scene_id": 1,
+      "time_range": "0-5",
+      "purpose": "opening hook",
+      "visual_plan": "校園或筆電開機、快速切入程式畫面",
+      "message": "把想法變成能運作的作品"
+    },
+    {
+      "scene_id": 2,
+      "time_range": "5-15",
+      "purpose": "department identity",
+      "visual_plan": "系名標題、校園外觀、打程式或課堂畫面",
+      "message": "國立臺南大學資訊工程學系與資訊工程基礎"
+    },
+    {
+      "scene_id": 3,
+      "time_range": "15-30",
+      "purpose": "learning fields and practice",
+      "visual_plan": "程式碼、資料圖、AI/多媒體/網路概念畫面、作品 demo",
+      "message": "學習 AI、資料、系統、網路與多媒體，並把概念做成系統"
+    },
+    {
+      "scene_id": 4,
+      "time_range": "30-45",
+      "purpose": "teamwork and project development",
+      "visual_plan": "小組討論、白板、螢幕 demo、除錯畫面",
+      "message": "在專題與團隊合作中練習溝通、除錯與實作"
+    },
+    {
+      "scene_id": 5,
+      "time_range": "45-57",
+      "purpose": "learning atmosphere and future direction",
+      "visual_plan": "校園生活、教室、走廊、學生背影",
+      "message": "在臺南校園中累積能力，走向下一個可能"
+    },
+    {
+      "scene_id": 6,
+      "time_range": "57-60",
+      "purpose": "closing title",
+      "visual_plan": "片尾標題與素材來源提示",
+      "message": "國立臺南大學資訊工程學系"
+    }
+  ],
+  "agent_task_list": {
+    "script_agent": "write narration and subtitles from scene outline",
+    "visual_agent": "create CapCut timeline and shot list",
+    "reviewer_agent": "check length, truthfulness, copyright, portrait rights, and zero-paid-token compliance",
+    "finalizer_agent": "integrate final script, subtitle file, README, and submission checklist"
+  },
+  "review_items": [
+    "length_55_to_65_seconds",
+    "subtitle_or_voiceover",
+    "truthfulness",
+    "copyright",
+    "portrait_rights",
+    "zero_paid_token_path",
+    "github_public_repo"
+  ]
+}
+

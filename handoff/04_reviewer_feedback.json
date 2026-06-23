@@ -1,0 +1,47 @@
+{
+  "agent": "Reviewer Agent",
+  "source_handoffs": [
+    "handoff/01_planner_output.json",
+    "handoff/02_script_output.json",
+    "handoff/03_visual_output.json"
+  ],
+  "review_status": "approved_with_minor_manual_checks",
+  "checks": [
+    {
+      "item": "video length",
+      "status": "pass",
+      "note": "The planned timeline is exactly 60 seconds. Final exported MP4 must be checked in CapCut."
+    },
+    {
+      "item": "subtitle or voiceover",
+      "status": "pass",
+      "note": "SRT subtitle file is provided. Voiceover can optionally be recorded in CapCut."
+    },
+    {
+      "item": "truthfulness",
+      "status": "pass_with_manual_confirmation",
+      "note": "Script avoids unverifiable rankings, facilities, admission data, employment rates, and competition claims. Official source URL is listed for department identity."
+    },
+    {
+      "item": "copyright",
+      "status": "manual_check_required",
+      "note": "Student must record or verify all visual/audio materials. CapCut music must be checked before public GitHub upload."
+    },
+    {
+      "item": "portrait rights",
+      "status": "manual_check_required",
+      "note": "If recognizable people appear, consent is required. Otherwise use hands-only, backs, or non-identifiable campus shots."
+    },
+    {
+      "item": "zero-paid-token path",
+      "status": "pass",
+      "note": "Workflow uses mock/stub agent outputs and CapCut editing; no paid API is required."
+    }
+  ],
+  "revision_requests": [
+    "Before final submission, verify the exported MP4 duration is between 55 and 65 seconds.",
+    "Fill in actual self-made assets in outputs/asset_sources.md.",
+    "Do not include unofficial logo or claims unless permission/source is confirmed."
+  ]
+}
+

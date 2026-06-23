@@ -1,0 +1,52 @@
+{
+  "agent": "Script Agent",
+  "source_handoff": "handoff/01_planner_output.json",
+  "voice_tone": "清楚、正向、穩重，適合高中生、新生、家長與一般觀眾",
+  "narration_script": [
+    {
+      "time_range": "0-5",
+      "text": "你想把想法，變成真正能運作的作品嗎？"
+    },
+    {
+      "time_range": "5-10",
+      "text": "這裡是國立臺南大學資訊工程學系。"
+    },
+    {
+      "time_range": "10-15",
+      "text": "從程式設計開始，建立資訊工程的基礎。"
+    },
+    {
+      "time_range": "15-22",
+      "text": "我們學習 AI、資料、系統、網路與多媒體。"
+    },
+    {
+      "time_range": "22-30",
+      "text": "把概念寫成程式，把程式做成可以展示的系統。"
+    },
+    {
+      "time_range": "30-38",
+      "text": "在專題與團隊合作中，練習溝通、除錯與實作。"
+    },
+    {
+      "time_range": "38-45",
+      "text": "讓技術不只停在課本，而能連結真實問題。"
+    },
+    {
+      "time_range": "45-52",
+      "text": "在臺南的校園裡，和夥伴一起累積能力。"
+    },
+    {
+      "time_range": "52-57",
+      "text": "從一行程式，走向下一個可能。"
+    },
+    {
+      "time_range": "57-60",
+      "text": "國立臺南大學資訊工程學系。"
+    }
+  ],
+  "subtitle_file": "outputs/subtitles.srt",
+  "claims_requiring_confirmation": [
+    "Only the official department name and general CSIE learning areas are used. No ranking, employment, faculty, facility, admission, or competition claims are included."
+  ]
+}
+
